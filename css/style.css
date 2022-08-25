@@ -1308,3 +1308,10 @@ input[type="text"] {
   color: #FF9000;
   border-color: #FF9000;
 }
+.video-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow:hidden;
+  display:block;
+}
