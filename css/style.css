@@ -1291,3 +1291,7 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+.profile {
+  padding-left: 100px;
+  padding-right: 100px;
+}
