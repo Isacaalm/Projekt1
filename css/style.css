@@ -1296,3 +1296,15 @@ input[type="text"] {
   padding-left: 100px;
   padding-right: 100px;
 }
+.btn-port {
+  outline-width: 100px;
+  background-color: #FF9000;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-port:hover {
+  outline-width: 100px;
+  background-color: #fff;
+  color: #FF9000;
+  border-color: #FF9000;
+}
