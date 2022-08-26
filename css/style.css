@@ -1291,12 +1291,3 @@ input[type="text"] {
   overflow:hidden;
   display:block;
 }
-
-.nav-bar {
-  list-style-type:none;
-  margin: 0;
-  padding: 10px;
-}
-.nav-bar li {
-  display: inline;
-}
