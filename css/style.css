@@ -1294,20 +1294,25 @@ input[type="text"] {
 }
 
 .btn-port1 {
-  border-radius: 5px;
+  border-radius: 10px;
   border-width: 2px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-color: rgba(0, 0, 0, 0.5);
-  margin-left: 40%;
+  position: center;
+  padding-left: 50%;
+  margin-left: 26%;
 }
 
 .btn-port2 {
-  border-radius: 5px;
+  border-radius: 10px;
   border-width: 2px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-color: rgba(0, 0, 0, 0.5);
+  position: center;
+  padding-right: 50%;
+  margin-left: 26%;
 }
 
 .btn-port1:hover {
@@ -1324,3 +1329,10 @@ input[type="text"] {
   color: rgb(255, 255, 255);
 }
 
+.buttones {
+  width: 100%;
+}
+
+#change {
+  height: 200px;
+}
