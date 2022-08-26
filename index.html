@@ -58,7 +58,7 @@
 
 </head>
 
-<body>
+<body id="bodi">
 
     <div class="fh5co-loader"></div>
 
@@ -143,7 +143,7 @@
                     </div>
                 </div>
                 <div class="row" style="margin:auto; width: 100%;">
-                    <div class="col-md-8" style="margin:auto; width: 100%;">
+                    <div id="change" class="col-md-8" style="margin:auto; width: 100%;">
                         <h2 style="margin:auto; margin-left: 10%;">Leo, Isac and Terris</h2> <br>
                         <p style="margin-left: 10%;">We are 3 guys who's all studying a fourth year at NTI Gymnasiet Helsingborg. 
                             Everyone in our class comes from different schools. Isac and Terris studied 
@@ -156,8 +156,9 @@
                 </div>
             </div>
         </div>
-    </div> 
-            <hr>        
+    </div> <button class="btn-port1" type="button" onclick="changeStyle()">change font</button>
+    <button class="btn-port2" type="button" onclick="changeStyle1()">change font</button>
+         <br>  <br>  <hr>        
 <div id="fh5co-footer">
         <div class="container">
             <div class="row">
@@ -188,6 +189,23 @@
     <script src="js/jquery.easypiechart.min.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
+
+
+    <script>
+
+function changeStyle(){
+        var element = document.getElementById("change");
+        element.style.fontFamily = "Brush Script MT";
+    } 
+
+    function changeStyle1() {
+        var element = document.getElementById("change");          
+        element.style.fontFamily = "Space Mono", Arial, Serif; }
+
+    </script>
+
+
+    
 
 </body>
 

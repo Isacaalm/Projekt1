@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #000000;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1292,3 +1292,35 @@ input[type="text"] {
   overflow:hidden;
   display:block;
 }
+
+.btn-port1 {
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.5);
+  margin-left: 40%;
+}
+
+.btn-port2 {
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-port1:hover {
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.btn-port2:hover {
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
