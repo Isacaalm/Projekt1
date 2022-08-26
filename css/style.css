@@ -1273,14 +1273,14 @@ input[type="text"] {
 .btn-port {
   border-radius: 5px;
   border-width: 2px;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
+  background-color: rgba(149, 129, 150, 0.5);
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255, 0.5);
 }
 .btn-port:hover {
   border-radius: 40px; 
   border-width: 4px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(105, 90, 105, 0.5);
   color: #ffffff;
   border-color: #ffffff;
   
