@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #ffb0f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #ff7fe7;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #ebcfe0;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #ebcfe0;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #ebcfe0;
 }
 
 #fh5co-header,
@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgba(247, 218, 240, 0.925);
+  transition: color 1s, background-color 1s, border-color 1s;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -1275,7 +1276,13 @@ input[type="text"] {
   border-width: 2px;
   background-color: rgba(149, 129, 150, 0.5);
   color: rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+  transition: 
+    color 1s, 
+    background-color 1s, 
+    border-color 1s,
+    border-width 1s,
+    border-radius 1s;
 }
 .btn-port:hover {
   border-radius: 40px; 
@@ -1283,7 +1290,12 @@ input[type="text"] {
   background-color: rgba(105, 90, 105, 0.5);
   color: #ffffff;
   border-color: #ffffff;
-  
+  transition: 
+    color 1s, 
+    background-color 1s, 
+    border-color 1s, 
+    border-width 1s,
+    border-radius 1s;
 }
 .video-container {
   position: absolute;
